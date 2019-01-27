@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".BroadcastReceiverActivity" />
-        <activity android:name=".SingletonLeakFixActivity"></activity>
+        <activity android:name=".SingletonLeakFixActivity" />
+        <activity android:name=".InnerClassReferenceLeakFixActivity" />
+        <activity android:name=".RunnableLeakFixActivity" />
+        <activity android:name=".AsyncTaskReferenceLeakFixActivity"></activity>
     </application>
 
 </manifest>
