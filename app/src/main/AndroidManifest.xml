@@ -21,7 +21,9 @@
         <activity android:name=".InnerClassReferenceLeakFixActivity" />
         <activity android:name=".RunnableLeakFixActivity" />
         <activity android:name=".AsyncTaskReferenceLeakFixActivity" />
-        <activity android:name=".HandlerReferenceLeakFixActivity"></activity>
+        <activity android:name=".HandlerReferenceLeakFixActivity" />
+        <activity android:name=".ThreadReferenceLeakFixActivity" />
+        <activity android:name=".TimerTaskReferenceLeakFixActivity"></activity>
     </application>
 
 </manifest>
